@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 
 export function Btn({ children, onClick, variant='primary', disabled, style:sx={} }) {
   const base = { display:'inline-flex', alignItems:'center', gap:8, padding:'11px 22px', borderRadius:'var(--r-md)', fontFamily:'var(--font)', fontSize:'0.88rem', fontWeight:600, cursor:disabled?'not-allowed':'pointer', border:'none', letterSpacing:'-0.01em', transition:'all var(--t)', opacity:disabled?0.5:1, ...sx };
@@ -17,8 +17,13 @@ export function Btn({ children, onClick, variant='primary', disabled, style:sx={
 }
 
 export function ProgressBar({ percent, label, sub, color='var(--accent)' }) {
+  const ref = useRef(null);
+  useEffect(() => {
+    try { ref.current?.scrollIntoView({ behavior: 'smooth', block: 'center' }); } catch(e) {}
+  }, []);
+
   return (
-    <div style={{ background:'var(--bg-1)', border:'1px solid var(--border)', borderRadius:'var(--r-xl)', padding:'28px 32px', marginTop:20, animation:'fadeUp .4s ease' }}>
+    <div ref={ref} style={{ background:'var(--bg-1)', border:'1px solid var(--border)', borderRadius:'var(--r-xl)', padding:'28px 32px', marginTop:20, animation:'fadeUp .4s ease' }}>
       <div style={{ display:'flex', alignItems:'center', gap:14, marginBottom:20 }}>
         <div style={{ width:32, height:32, borderRadius:'50%', border:'2.5px solid var(--bg-4)', borderTopColor:color, animation:'spin .85s linear infinite', flexShrink:0 }}/>
         <div style={{ flex:1 }}>
