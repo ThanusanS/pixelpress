@@ -1,0 +1,104 @@
+/* ═══════════════════════════════════════
+   PIXELPRESS — Design System v5
+   Mobile-first · Light+Dark · Production
+   ═══════════════════════════════════════ */
+:root {
+  --bg:#ffffff; --bg-1:#f8f9fa; --bg-2:#f1f3f5; --bg-3:#e9ecef; --bg-4:#dee2e6; --bg-5:#adb5bd;
+  --border:rgba(0,0,0,0.08); --border-md:rgba(0,0,0,0.13); --border-hi:rgba(0,0,0,0.22);
+  --text:#0f172a; --text-2:#475569; --text-3:#94a3b8;
+  --accent:#7c3aed; --accent-2:#8b5cf6; --accent-bg:rgba(124,58,237,0.08); --accent-glow:rgba(124,58,237,0.18);
+  --co:#7c3aed; --co-bg:rgba(124,58,237,0.08); --co-b:rgba(124,58,237,0.20); --co-g:linear-gradient(135deg,#7c3aed,#a78bfa);
+  --ce:#d97706; --ce-bg:rgba(217,119,6,0.08);  --ce-b:rgba(217,119,6,0.22);  --ce-g:linear-gradient(135deg,#d97706,#fbbf24);
+  --cc:#1d4ed8; --cc-bg:rgba(29,78,216,0.08);  --cc-b:rgba(29,78,216,0.20);  --cc-g:linear-gradient(135deg,#1d4ed8,#60a5fa);
+  --cs:#059669; --cs-bg:rgba(5,150,105,0.08);  --cs-b:rgba(5,150,105,0.22);  --cs-g:linear-gradient(135deg,#059669,#34d399);
+  --ca:#dc2626; --ca-bg:rgba(220,38,38,0.08);  --ca-b:rgba(220,38,38,0.20);  --ca-g:linear-gradient(135deg,#dc2626,#f87171);
+  --green:#059669; --green-bg:rgba(5,150,105,0.08);
+  --red:#dc2626;   --red-bg:rgba(220,38,38,0.08);
+  --amber:#d97706; --amber-bg:rgba(217,119,6,0.08);
+  --blue:#1d4ed8;  --blue-bg:rgba(29,78,216,0.08);
+  --orange:#ea580c;--orange-bg:rgba(234,88,12,0.08);
+  --pink:#be185d;  --pink-bg:rgba(190,24,93,0.08);
+  --teal:#0f766e;  --teal-bg:rgba(15,118,110,0.08);
+  --font:'Bricolage Grotesque',system-ui,sans-serif;
+  --font-serif:'Instrument Serif',Georgia,serif;
+  --font-mono:'JetBrains Mono',monospace;
+  --r-sm:8px; --r-md:12px; --r-lg:16px; --r-xl:20px; --r-2xl:28px;
+  --sh-sm:0 1px 4px rgba(0,0,0,0.07),0 1px 2px rgba(0,0,0,0.04);
+  --sh-md:0 4px 16px rgba(0,0,0,0.09),0 2px 4px rgba(0,0,0,0.05);
+  --sh-lg:0 12px 40px rgba(0,0,0,0.11),0 4px 8px rgba(0,0,0,0.05);
+  --ease:cubic-bezier(0.4,0,0.2,1); --t:0.18s var(--ease);
+  --nav-w:240px; --nav-w-col:60px; --hdr:60px;
+}
+[data-theme="dark"] {
+  --bg:#09090b; --bg-1:#111113; --bg-2:#18181b; --bg-3:#1f1f23; --bg-4:#27272c; --bg-5:#52525b;
+  --border:rgba(255,255,255,0.07); --border-md:rgba(255,255,255,0.12); --border-hi:rgba(255,255,255,0.20);
+  --text:#f4f4f5; --text-2:#a1a1aa; --text-3:#52525b;
+  --accent:#8b5cf6; --accent-2:#a78bfa; --accent-bg:rgba(139,92,246,0.13); --accent-glow:rgba(139,92,246,0.22);
+  --co:#a78bfa; --co-bg:rgba(167,139,250,0.12); --co-b:rgba(167,139,250,0.25);
+  --ce:#fbbf24; --ce-bg:rgba(251,191,36,0.12);  --ce-b:rgba(251,191,36,0.25);
+  --cc:#60a5fa; --cc-bg:rgba(96,165,250,0.12);  --cc-b:rgba(96,165,250,0.25);
+  --cs:#34d399; --cs-bg:rgba(52,211,153,0.12);  --cs-b:rgba(52,211,153,0.25);
+  --ca:#f87171; --ca-bg:rgba(248,113,113,0.12); --ca-b:rgba(248,113,113,0.25);
+  --green:#34d399; --green-bg:rgba(52,211,153,0.12);
+  --red:#f87171;   --red-bg:rgba(248,113,113,0.12);
+  --amber:#fbbf24; --amber-bg:rgba(251,191,36,0.12);
+  --blue:#60a5fa;  --blue-bg:rgba(96,165,250,0.12);
+  --orange:#fb923c;--orange-bg:rgba(251,146,60,0.12);
+  --pink:#f472b6;  --pink-bg:rgba(244,114,182,0.12);
+  --teal:#2dd4bf;  --teal-bg:rgba(45,212,191,0.12);
+  --sh-sm:0 1px 4px rgba(0,0,0,0.28); --sh-md:0 4px 16px rgba(0,0,0,0.32); --sh-lg:0 12px 40px rgba(0,0,0,0.38);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:100vh;line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s;overflow-x:hidden}
+#root{display:flex;flex-direction:column;min-height:100vh}
+a{color:inherit;text-decoration:none}
+button{font-family:var(--font);cursor:pointer}
+input,select,textarea{font-family:var(--font)}
+img{max-width:100%;height:auto}
+
+/* App shell */
+.app-shell{display:flex;min-height:100vh}
+.app-sidebar{width:var(--nav-w);flex-shrink:0;position:fixed;top:0;left:0;bottom:0;overflow-y:auto;overflow-x:hidden;background:var(--bg-1);border-right:1px solid var(--border);z-index:200;transition:transform var(--t),width var(--t);display:flex;flex-direction:column}
+.app-sidebar.collapsed{width:var(--nav-w-col)}
+.app-main{flex:1;min-width:0;margin-left:var(--nav-w);transition:margin-left var(--t);display:flex;flex-direction:column;min-height:100vh}
+.app-main.collapsed{margin-left:var(--nav-w-col)}
+
+/* Mobile header */
+.mob-hdr{display:none;height:var(--hdr);background:var(--bg-1);border-bottom:1px solid var(--border);padding:0 16px;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:150;flex-shrink:0}
+.mob-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:190;backdrop-filter:blur(3px)}
+
+/* Responsive */
+@media(max-width:768px){
+  .app-sidebar{transform:translateX(-100%);width:var(--nav-w)!important;box-shadow:var(--sh-lg)}
+  .app-sidebar.mob-open{transform:translateX(0)}
+  .app-main{margin-left:0!important}
+  .mob-hdr{display:flex}
+  .mob-overlay.on{display:block}
+  .desk-only{display:none!important}
+  .page-pad{padding:24px 16px 60px!important}
+  .tool-pad{padding:24px 16px 60px!important}
+  .footer-grid{grid-template-columns:1fr 1fr!important;gap:24px!important}
+  .footer-brand{grid-column:1/-1!important}
+  .hero-h1{font-size:clamp(1.8rem,8vw,3rem)!important}
+  .stats-strip{grid-template-columns:repeat(2,1fr)!important}
+  .card-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))!important}
+  .how-grid{grid-template-columns:1fr!important}
+  .faq-grid{grid-template-columns:1fr!important}
+}
+@media(min-width:769px){.mob-hdr{display:none}.mob-only{display:none!important}}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--bg-4);border-radius:3px}
+
+/* Keyframes */
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(300%)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+@keyframes checkIn{0%{stroke-dashoffset:40;opacity:0}100%{stroke-dashoffset:0;opacity:1}}
+@keyframes scaleIn{from{transform:scale(.94);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes glowPop{0%,100%{box-shadow:0 0 0 0 rgba(5,150,105,0)}50%{box-shadow:0 0 20px 4px rgba(5,150,105,.22)}}

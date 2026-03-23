@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://pixelpress.tools/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://pixelpress.tools/merge-pdf</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pixelpress.tools/split-pdf</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pixelpress.tools/compress-pdf</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pixelpress.tools/jpg-to-pdf</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pixelpress.tools/pdf-to-jpg</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelpress.tools/pdf-to-word</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelpress.tools/word-to-pdf</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelpress.tools/pdf-to-excel</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelpress.tools/excel-to-pdf</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelpress.tools/pdf-to-ppt</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/ppt-to-pdf</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/rotate-pdf</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/organise-pdf</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/edit-pdf</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelpress.tools/watermark-pdf</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/sign-pdf</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/page-numbers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://pixelpress.tools/protect-pdf</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/unlock-pdf</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelpress.tools/repair-pdf</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://pixelpress.tools/redact-pdf</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://pixelpress.tools/compare-pdf</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://pixelpress.tools/crop-pdf</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://pixelpress.tools/html-to-pdf</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/scan-to-pdf</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/ocr-pdf</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixelpress.tools/pdf-to-pdfa</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>
